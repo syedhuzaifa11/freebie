@@ -1,0 +1,21 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.star{
+	color: $peela;
+}
+.arrow{
+	span{
+		
+		padding-left: 1rem;
+
+	i{
+
+	width: 2rem;
+	height: 2rem;
+		  font-size: 2rem;
+			line-height: 3.5rem;
+	}
+	}
+}

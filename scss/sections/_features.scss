@@ -1,0 +1,44 @@
+@use '../custom' as *;
+
+.picc{
+	margin-top: 4rem;
+}
+.bbs{
+	margin-left: 2rem;
+
+}
+
+.card-head{
+		font-family: 'Poppins', sans-serif;
+		background-color:$gray-400;
+		p{
+			span{
+				font-weight: bold;
+				font-size: 3rem;
+			}
+		}
+		.heed{
+			font-size: 1.3rem;
+			font-weight: bold;
+		}
+		.pp{
+			font-size: 1.1rem;
+		}
+	}
+.card-body{
+		font-family: 'Poppins', sans-serif;
+
+}
+.p-b{
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+.carrd{
+	margin-left: 20%;
+	margin-right:20%;
+
+}
+.card{
+	border-radius: 1rem;
+}

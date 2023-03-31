@@ -1,0 +1,50 @@
+
+
+@use '../custom' as *;
+
+.services{
+	position: relative;
+	padding: 1rem 0;
+
+	&--content{
+		padding:1rem;
+		margin-top: 1.6rem;
+	
+		p{
+			font-size: 1rem;
+		}
+
+		.icon {
+			font-size: 2.5rem;
+			color: $primary;
+		}
+	}
+
+	&--pic {
+		max-width: 100%;
+	}
+}
+.pnk{
+	color: $piink;
+}
+.blue{
+	color: $primary;
+}
+.green{
+	color: $greeen;
+}
+
+.icnoon{
+	padding-left: 3rem;
+	p{
+		font-size: 0.8rem;
+	}
+}
+.dess{
+	.desss{
+		padding: 2rem 2rem;
+	h3{
+		font-size: 2.8rem;
+		}
+	}
+}

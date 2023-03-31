@@ -1,0 +1,27 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.navbar{
+	margin-top: 2rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	}
+		.menu{
+			p{
+				font-size: 1.5rem;
+				color: $bleu;
+				font-weight: bold;
+				span{
+					color: $peela;
+				}
+			}
+			
+			li  {
+			padding:0.0.7rem;
+			a  {
+					color: $secondary !important;
+					text-transform: capitalize;
+					font-weight: 600;
+			   }
+		    }
+		}
